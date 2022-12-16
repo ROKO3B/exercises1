@@ -108,9 +108,9 @@ section {
 
 
 
-/*---------------bicycle------------*/
+/*---------------Camp------------*/
 
-#bicycle {
+#camp {
   ul {
     display: flex;
     justify-content: space-between;
@@ -158,7 +158,7 @@ $sp: 600px;
   };
 }
 
-#bicycle {
+#camp {
   @include sp {
     flex-direction: column;
   };
