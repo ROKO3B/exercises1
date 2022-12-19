@@ -156,12 +156,14 @@ $sp: 600px;
 
 #about {
   @include sp {
+   
     flex-direction: column;
   };
 }
 
 #camp {
   @include sp {
+   
     flex-direction: column;
   };
 }
