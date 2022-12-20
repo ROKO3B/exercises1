@@ -32,7 +32,7 @@ li {
   max-width: 1920px;
   width: 100%;
   height: 50px;
-  background: rgba(185, 185, 245, 0.9);
+  background: rgba(255, 255, 255, 0.9);
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -151,15 +151,19 @@ section .text {
 }
 
 @media (max-width: 600px) {
-  #about {
+  #about .content {
     display: flex;
     flex-direction: column;
   }
 }
 
 @media (max-width: 600px) {
-  #camp {
+  #camp ul {
     display: flex;
     flex-direction: column;
+  }
+  #camp li {
+    width: 100%;
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
